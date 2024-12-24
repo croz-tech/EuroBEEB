@@ -41122,12 +41122,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "RXC"
 			(at 128.778 185.6048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -51361,12 +51362,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "~{DTR}"
 			(at 128.778 188.1448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
