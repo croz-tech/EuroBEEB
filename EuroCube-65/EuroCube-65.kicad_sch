@@ -8,6 +8,8 @@
 		(title "EUROBEEB")
 		(date "2024-11-16")
 		(rev "ISSUE 8")
+		(company "steve@croz.co.uk")
+		(comment 1 "Based on issue 7 with addition of R31 pullup")
 	)
 	(lib_symbols
 		(symbol "26LS30_1"
@@ -20024,6 +20026,12 @@
 		(uuid "3bb3c488-2888-4310-826a-1e8537a949a3")
 	)
 	(junction
+		(at 190.5 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bb6445e-c000-495d-b88c-caf19100dc41")
+	)
+	(junction
 		(at 312.42 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -23660,6 +23668,16 @@
 		)
 		(uuid "19700e01-535e-4b01-bbf5-41f8105b4786")
 	)
+	(wire
+		(pts
+			(xy 190.5 203.2) (xy 194.31 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19834720-7d26-4d1e-a062-5c8b2bc18eff")
+	)
 	(bus
 		(pts
 			(xy 245.11 59.69) (xy 245.11 62.23)
@@ -24772,7 +24790,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 203.2) (xy 194.31 203.2)
+			(xy 179.07 203.2) (xy 190.5 203.2)
 		)
 		(stroke
 			(width 0)
@@ -29042,6 +29060,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 200.66) (xy 190.5 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a284956f-a146-4ea4-9296-aa805e36418f")
+	)
+	(wire
+		(pts
 			(xy 137.16 238.76) (xy 137.16 232.41)
 		)
 		(stroke
@@ -33012,7 +33040,7 @@
 		)
 		(uuid "e5f22902-a6e9-4c35-96ba-70170dadced7")
 	)
-	(text "Errors on original schematic:\n\n1. IC1 pin 28 R/~{W} connected to IRQ instead of B R/~{W}\n2. C8,10, 13, 16 not fitted according to schematic note, but C8 trimmer is\n3. C10, 11, 12, 13 vaues missing from BOM"
+	(text "Errors on original schematics:\n\n1. IC1 pin 28 R/~{W} connected to IRQ instead of B R/~{W}\n2. C8,10, 13, 16 not fitted according to schematic note, but C8 trimmer is\n3. C10, 11, 12, 13 vaues missing from BOM (47p)"
 		(exclude_from_sim no)
 		(at 253.746 204.724 0)
 		(effects
@@ -34695,17 +34723,6 @@
 		)
 		(uuid "96022967-5210-442a-8985-5877adedb0ce")
 	)
-	(label "VCB"
-		(at 186.69 203.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "989ea70c-bdf4-4e82-a8c9-d0c3908d31d2")
-	)
 	(label "~{WDS}"
 		(at 231.14 49.53 0)
 		(fields_autoplaced yes)
@@ -36174,12 +36191,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "47p"
 			(at 107.9563 180.8677 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -39963,7 +39981,7 @@
 		(dnp no)
 		(uuid "472aed38-4f11-4e48-9f8c-4e8b771a2281")
 		(property "Reference" "C16"
-			(at 188.214 204.47 0)
+			(at 188.468 205.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39972,7 +39990,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 188.468 206.502 0)
+			(at 188.468 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40366,7 +40384,7 @@
 		(dnp no)
 		(uuid "4e207db3-07f7-4b67-8364-5cad52e832a0")
 		(property "Reference" "L10"
-			(at 120.65 229.87 0)
+			(at 120.65 233.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40374,7 +40392,7 @@
 			)
 		)
 		(property "Value" "~{RESET}"
-			(at 113.03 232.41 0)
+			(at 120.904 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40506,12 +40524,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "47p"
 			(at 107.9563 168.9108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -40889,6 +40908,73 @@
 			(project "EuroCube-65"
 				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 125.73 207.01 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56bf499d-dd08-43c0-8a57-76a10b627e4a")
+		(property "Reference" "L4"
+			(at 124.206 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 127.8928 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 125.73 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58124a01-1154-4949-8e76-160a9a56cd7f")
+		)
+		(pin "2"
+			(uuid "4ee151cd-b98d-42d2-884d-91f548252e88")
+		)
+		(instances
+			(project "EuroCube-65"
+				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -43368,7 +43454,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "240"
 			(at 80.518 207.264 90)
 			(effects
 				(font
@@ -46542,73 +46628,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 125.73 207.01 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b86a13f5-7cea-465d-b25d-9407c30dfb2c")
-		(property "Reference" "L4"
-			(at 124.46 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 128.5961 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 125.73 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eef0ed6a-5809-46c8-baf4-5cd7dbdf5127")
-		)
-		(pin "2"
-			(uuid "c57e0553-6e93-4409-b118-96f9f571329f")
-		)
-		(instances
-			(project "EuroCube-65"
-				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 265.43 120.65 0)
 		(unit 1)
@@ -47557,12 +47576,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "47p"
 			(at 107.9563 163.0877 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -47881,6 +47901,70 @@
 			(project "EuroCube-65"
 				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccc862d2-c231-47ae-bb90-bebc3314787e")
+		(property "Reference" "TP5"
+			(at 184.404 199.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCB"
+			(at 184.404 201.676 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5e14089-cc6a-4288-9b14-896303093147")
+		)
+		(instances
+			(project "EuroCube-65"
+				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -48916,12 +49000,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "47p"
 			(at 107.9563 150.3877 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -49568,8 +49653,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M3000 CLOCK"
-			(at 253.492 157.48 0)
+		(property "Value" "M3002"
+			(at 257.048 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50653,12 +50738,13 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "240"
 			(at 80.518 195.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
