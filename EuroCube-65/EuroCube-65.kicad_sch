@@ -572,6 +572,419 @@
 				)
 			)
 		)
+		(symbol "26LS32_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "26LS32_1_1_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 3.81 0) (xy -2.54 -3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "26LS32_1_2_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 3.81 0) (xy -2.54 -3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "26LS32_1_3_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 3.81 0) (xy -2.54 -3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "26LS32_1_4_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy 3.81 0) (xy -2.54 -3.81) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "26LS32_1_5_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "~{G}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "74xx:74LS00"
 			(pin_names
 				(offset 1.016)
@@ -6013,6 +6426,261 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x03_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -19882,10 +20550,10 @@
 		(uuid "12a7bbb0-aaa1-4360-8f7a-2000b5a409b4")
 	)
 	(junction
-		(at 106.68 214.63)
+		(at 105.41 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "136b1e02-370d-4225-9872-8f2d30c06fd7")
+		(uuid "12f78e51-5b3f-4778-a0da-0e6bf835853f")
 	)
 	(junction
 		(at 110.49 118.11)
@@ -19922,12 +20590,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c22ab50-d318-4b66-8c8a-a8d388d37c6a")
-	)
-	(junction
-		(at 106.68 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cb62577-b2f6-4d33-883d-af727d0883ca")
 	)
 	(junction
 		(at 180.34 120.65)
@@ -20446,6 +21108,12 @@
 		(uuid "9738ded4-0825-4f42-be2b-4f8c1b15ca6c")
 	)
 	(junction
+		(at 105.41 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b9a9391-6f1d-4ad3-bc09-655fe5d37ea3")
+	)
+	(junction
 		(at 106.68 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20600,6 +21268,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8ad80f2-40e7-4ec6-81c2-e7ad8e17b39d")
+	)
+	(junction
+		(at 105.41 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8af6d68-1db9-4e4f-98cb-da5f1a5ce5ae")
 	)
 	(junction
 		(at 137.16 232.41)
@@ -20840,12 +21514,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e59499fa-b253-4cdb-8831-d0bdbfc6c820")
-	)
-	(junction
-		(at 106.68 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6c1ab7f-344e-4148-b252-72a1e147bd90")
 	)
 	(junction
 		(at 30.48 19.05)
@@ -22770,16 +23438,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 231.14) (xy 87.63 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0115e063-3aff-430d-97ef-87cf32e2ea79")
-	)
-	(wire
-		(pts
 			(xy 189.23 82.55) (xy 191.77 82.55)
 		)
 		(stroke
@@ -23427,6 +24085,16 @@
 			(type default)
 		)
 		(uuid "1310ab3e-366f-4093-ad6e-162c56aa0d67")
+	)
+	(wire
+		(pts
+			(xy 120.65 217.17) (xy 120.65 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132ea6ce-9493-4402-a2b3-845270c2f722")
 	)
 	(wire
 		(pts
@@ -25080,6 +25748,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 217.17) (xy 120.65 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7d562b-f743-426d-af48-7b494a7370ed")
+	)
+	(wire
+		(pts
 			(xy 59.69 82.55) (xy 63.5 82.55)
 		)
 		(stroke
@@ -26270,7 +26948,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 219.71) (xy 106.68 220.98)
+			(xy 105.41 219.71) (xy 105.41 220.98)
 		)
 		(stroke
 			(width 0)
@@ -28060,16 +28738,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 217.17) (xy 119.38 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c4bff1-3349-46a0-860c-09d8dd1e8d02")
-	)
-	(wire
-		(pts
 			(xy 179.07 214.63) (xy 179.07 217.17)
 		)
 		(stroke
@@ -28630,7 +29298,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 217.17) (xy 106.68 219.71)
+			(xy 105.41 217.17) (xy 105.41 219.71)
 		)
 		(stroke
 			(width 0)
@@ -28997,16 +29665,6 @@
 			(type default)
 		)
 		(uuid "9fd4bcbd-b03e-49e7-a7f8-09d3501aade6")
-	)
-	(wire
-		(pts
-			(xy 106.68 214.63) (xy 107.95 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a102ea79-6b15-468c-abeb-0a0eed7715c2")
 	)
 	(wire
 		(pts
@@ -29380,7 +30038,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 214.63) (xy 106.68 214.63)
+			(xy 104.14 214.63) (xy 105.41 214.63)
 		)
 		(stroke
 			(width 0)
@@ -29880,6 +30538,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 231.14) (xy 87.63 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7be2fd5-6e57-4e7d-bad8-94b84307730f")
+	)
+	(wire
+		(pts
 			(xy 218.44 125.73) (xy 226.06 125.73)
 		)
 		(stroke
@@ -30270,16 +30938,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 219.71) (xy 114.3 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c507d24a-22ae-4cb8-bdf6-898c9ec0d766")
-	)
-	(wire
-		(pts
 			(xy 26.67 62.23) (xy 31.75 62.23)
 		)
 		(stroke
@@ -30610,7 +31268,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 219.71) (xy 120.65 214.63)
+			(xy 123.19 219.71) (xy 123.19 214.63)
 		)
 		(stroke
 			(width 0)
@@ -30620,7 +31278,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 214.63) (xy 113.03 214.63)
+			(xy 123.19 214.63) (xy 118.11 214.63)
 		)
 		(stroke
 			(width 0)
@@ -30770,7 +31428,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 214.63) (xy 106.68 217.17)
+			(xy 105.41 214.63) (xy 105.41 217.17)
 		)
 		(stroke
 			(width 0)
@@ -31210,16 +31868,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 219.71) (xy 107.95 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daafbde9-edcc-48b2-8231-34268b8d1c42")
-	)
-	(wire
-		(pts
 			(xy 128.27 19.05) (xy 128.27 43.18)
 		)
 		(stroke
@@ -31480,6 +32128,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 227.33) (xy 120.65 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e383d0d6-3439-4d45-bf26-8bd2be1fab0e")
+	)
+	(wire
+		(pts
 			(xy 200.66 234.95) (xy 200.66 233.68)
 		)
 		(stroke
@@ -31560,7 +32218,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 226.06) (xy 106.68 227.33)
+			(xy 105.41 226.06) (xy 105.41 227.33)
 		)
 		(stroke
 			(width 0)
@@ -32157,16 +32815,6 @@
 			(type default)
 		)
 		(uuid "fa106789-d161-40a5-8937-978fb03480a4")
-	)
-	(wire
-		(pts
-			(xy 106.68 217.17) (xy 107.95 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa649674-1273-4ae8-b370-4dd093eed648")
 	)
 	(wire
 		(pts
@@ -33668,13 +34316,13 @@
 		(uuid "308b3813-11b7-4470-80da-a31d1b507ec3")
 	)
 	(label "-5V_INT"
-		(at 119.38 217.17 180)
+		(at 111.76 227.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "312f95b9-a4f1-4ebb-977c-557422c4bbd1")
 	)
@@ -36013,7 +36661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 38.1 25.4 0)
 			(effects
 				(font
@@ -36084,7 +36732,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-18_W7.62mm_SideBrazed_Socket"
 			(at 128.27 48.26 0)
 			(effects
 				(font
@@ -36200,7 +36848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 107.95 184.15 0)
 			(effects
 				(font
@@ -36268,7 +36916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_DIN:DIN41612_B_2x32_Male_Horizontal_THT"
 			(at 257.81 80.01 0)
 			(effects
 				(font
@@ -36522,7 +37170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 74.93 200.66 0)
 			(effects
 				(font
@@ -36588,7 +37236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 309.88 104.14 0)
 			(effects
 				(font
@@ -36824,7 +37472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 88.9 229.235 0)
 			(effects
 				(font
@@ -36904,75 +37552,6 @@
 				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
 					(reference "IC2")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 110.49 214.63 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0eb54b19-1bb9-4e6c-813d-95cf64f25e68")
-		(property "Reference" "L52"
-			(at 110.49 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 110.49 211.7639 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 110.49 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26043f4d-3875-43fd-bbd0-8f6ba0e6c879")
-		)
-		(pin "2"
-			(uuid "89653dd5-4fa1-4902-923a-b55a303b3db1")
-		)
-		(instances
-			(project "EuroCube-65"
-				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
-					(reference "L52")
-					(unit 1)
 				)
 			)
 		)
@@ -37067,7 +37646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 30.48 27.94 0)
 			(effects
 				(font
@@ -37265,7 +37844,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:PinHeader_1x02_P2.54mm_V_Tight"
 			(at 171.45 120.65 0)
 			(effects
 				(font
@@ -37332,7 +37911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 321.31 152.4 0)
 			(effects
 				(font
@@ -37436,7 +38015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 120.65 129.54 0)
 			(effects
 				(font
@@ -37540,7 +38119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 138.43 114.3 0)
 			(effects
 				(font
@@ -37906,7 +38485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 27.94 125.73 0)
 			(effects
 				(font
@@ -37976,7 +38555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket"
 			(at 205.74 130.81 0)
 			(effects
 				(font
@@ -38360,7 +38939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 88.9 123.19 0)
 			(effects
 				(font
@@ -38463,7 +39042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 260.35 185.42 0)
 			(effects
 				(font
@@ -38631,7 +39210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:Trimmer_small"
 			(at 250.19 175.26 0)
 			(effects
 				(font
@@ -38765,7 +39344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
 			(at 45.72 77.47 0)
 			(effects
 				(font
@@ -39078,7 +39657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:PinHeader_1x02_P2.54mm_V_Tight"
 			(at 91.44 208.28 0)
 			(effects
 				(font
@@ -39147,7 +39726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 22.86 91.44 0)
 			(effects
 				(font
@@ -39257,7 +39836,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 227.33 0)
+		(at 105.41 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39266,7 +39845,7 @@
 		(fields_autoplaced yes)
 		(uuid "3953f7c7-ce01-45b7-be11-99271501ec6b")
 		(property "Reference" "#PWR04"
-			(at 106.68 233.68 0)
+			(at 105.41 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39275,7 +39854,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 231.4631 0)
+			(at 105.41 231.4631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39283,7 +39862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 227.33 0)
+			(at 105.41 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39292,7 +39871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 227.33 0)
+			(at 105.41 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39301,7 +39880,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 227.33 0)
+			(at 105.41 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39346,7 +39925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 82.55 105.41 0)
 			(effects
 				(font
@@ -39413,7 +39992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x13-1MP_P2.54mm_Latch_Horizontal"
 			(at 21.59 187.96 0)
 			(effects
 				(font
@@ -39619,7 +40198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 86.36 111.76 0)
 			(effects
 				(font
@@ -39688,7 +40267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:Battery"
 			(at 165.1 219.456 90)
 			(effects
 				(font
@@ -39758,7 +40337,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:ConfigBlock_2x09_P2.54mm_Vertical"
 			(at 207.01 48.26 0)
 			(effects
 				(font
@@ -39875,7 +40454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket"
 			(at 205.74 170.18 0)
 			(effects
 				(font
@@ -39998,7 +40577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 194.31 205.74 0)
 			(effects
 				(font
@@ -40065,7 +40644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 97.79 203.2 0)
 			(effects
 				(font
@@ -40132,7 +40711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 97.79 205.74 0)
 			(effects
 				(font
@@ -40267,7 +40846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 326.0852 135.89 0)
 			(effects
 				(font
@@ -40399,7 +40978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 120.65 232.41 0)
 			(effects
 				(font
@@ -40533,7 +41112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 107.95 171.45 0)
 			(effects
 				(font
@@ -40666,7 +41245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:PinHeader_1x02_P2.54mm_V_Tight"
 			(at 171.45 118.11 0)
 			(effects
 				(font
@@ -40735,7 +41314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 210.82 209.55 0)
 			(effects
 				(font
@@ -40802,7 +41381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 97.79 191.77 0)
 			(effects
 				(font
@@ -40871,7 +41450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 313.3852 135.89 0)
 			(effects
 				(font
@@ -40938,7 +41517,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:PinHeader_1x02_P2.54mm_V_Tight"
 			(at 125.73 207.01 0)
 			(effects
 				(font
@@ -41149,7 +41728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 179.07 209.55 0)
 			(effects
 				(font
@@ -41217,7 +41796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 132.08 182.88 0)
 			(effects
 				(font
@@ -41347,7 +41926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 26.67 36.83 0)
 			(effects
 				(font
@@ -41547,7 +42126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 20.32 137.16 0)
 			(effects
 				(font
@@ -41745,7 +42324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 303.53 168.91 0)
 			(effects
 				(font
@@ -41832,7 +42411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 323.85 74.93 0)
 			(effects
 				(font
@@ -41937,7 +42516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 24.13 125.73 0)
 			(effects
 				(font
@@ -41980,73 +42559,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Open")
-		(at 110.49 219.71 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60291de0-b558-412e-bc12-9b3141e5ade7")
-		(property "Reference" "L5"
-			(at 110.49 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 110.49 216.8439 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 110.49 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f64a5d97-6516-4f86-a848-68b7b2449215")
-		)
-		(pin "2"
-			(uuid "f411aeb4-31c5-4c90-b5b7-ed755c66efd8")
-		)
-		(instances
-			(project "EuroCube-65"
-				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
-					(reference "L5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 215.9 213.36 0)
 		(unit 1)
@@ -42073,7 +42585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 215.9 213.36 0)
 			(effects
 				(font
@@ -42142,7 +42654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 308.3052 154.94 0)
 			(effects
 				(font
@@ -42275,7 +42787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 26.67 19.05 0)
 			(effects
 				(font
@@ -42343,7 +42855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 186.69 217.17 0)
 			(effects
 				(font
@@ -42592,7 +43104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 165.1 209.55 0)
 			(effects
 				(font
@@ -42659,7 +43171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 57.15 220.98 0)
 			(effects
 				(font
@@ -42770,7 +43282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 90.17 111.76 0)
 			(effects
 				(font
@@ -42905,7 +43417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 151.13 231.14 0)
 			(effects
 				(font
@@ -43038,7 +43550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 250.19 170.18 0)
 			(effects
 				(font
@@ -43173,7 +43685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 26.67 91.44 0)
 			(effects
 				(font
@@ -43240,7 +43752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 203.2 219.71 0)
 			(effects
 				(font
@@ -43347,7 +43859,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:ConfigBlock_2x09_P2.54mm_Vertical"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -43462,7 +43974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 83.82 208.28 0)
 			(effects
 				(font
@@ -43499,75 +44011,6 @@
 			(project "EuroCube-65"
 				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 110.49 217.17 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "755d6375-8823-4524-aa6b-6b70b320babf")
-		(property "Reference" "L51"
-			(at 110.49 212.5829 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SERIAL CONFIG"
-			(at 116.332 210.312 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 110.49 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e74a3117-f098-4348-b7a3-388a3409264a")
-		)
-		(pin "2"
-			(uuid "017b3c9c-baaf-43fd-bf95-2f8c11ee364e")
-		)
-		(instances
-			(project ""
-				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
-					(reference "L51")
 					(unit 1)
 				)
 			)
@@ -43663,7 +44106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 38.1 19.05 0)
 			(effects
 				(font
@@ -43768,7 +44211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 195.58 240.03 0)
 			(effects
 				(font
@@ -43835,7 +44278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 185.42 234.95 0)
 			(effects
 				(font
@@ -44004,7 +44447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:PinHeader_1x02_P2.54mm_V_Tight"
 			(at 91.44 196.85 0)
 			(effects
 				(font
@@ -44041,6 +44484,85 @@
 			(project ""
 				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
+		(at 110.49 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bbd9acb-39eb-4599-b020-b6f62dc082a5")
+		(property "Reference" "L5"
+			(at 111.76 212.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 111.76 212.3829 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+			(at 110.49 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 110.49 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0c3e0642-9015-4410-b272-832a80711051")
+		)
+		(pin "2"
+			(uuid "bab4363a-fd71-4f22-b6b9-d849297dda49")
+		)
+		(pin "1"
+			(uuid "715e7ca2-f424-4b33-b8e1-f787aede41ae")
+		)
+		(pin "5"
+			(uuid "29ab27b0-3ec0-4889-b79a-1aa97bd809de")
+		)
+		(pin "4"
+			(uuid "65543ce7-79a8-4292-965d-7adc794b3976")
+		)
+		(pin "3"
+			(uuid "5139f754-1aa8-4a15-9946-64b6496cdc76")
+		)
+		(instances
+			(project ""
+				(path "/2a966873-1bce-441e-b1e5-16428638ef47"
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -44138,7 +44660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 301.9552 154.94 0)
 			(effects
 				(font
@@ -44271,7 +44793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 110.49 204.47 0)
 			(effects
 				(font
@@ -44383,7 +44905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 113.03 165.735 0)
 			(effects
 				(font
@@ -44494,7 +45016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 95.25 110.49 0)
 			(effects
 				(font
@@ -44665,7 +45187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 220.98 213.36 0)
 			(effects
 				(font
@@ -44734,7 +45256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 31.75 125.73 0)
 			(effects
 				(font
@@ -44801,7 +45323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 45.72 27.94 0)
 			(effects
 				(font
@@ -44870,7 +45392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 300.6852 135.89 0)
 			(effects
 				(font
@@ -45003,7 +45525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 143.51 227.33 90)
 			(effects
 				(font
@@ -45221,7 +45743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 19.05 91.44 0)
 			(effects
 				(font
@@ -45552,7 +46074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 292.1 170.18 0)
 			(effects
 				(font
@@ -45619,7 +46141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 120.65 120.65 0)
 			(effects
 				(font
@@ -45723,7 +46245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
 			(at 143.51 195.58 0)
 			(effects
 				(font
@@ -45868,7 +46390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 38.1 30.48 0)
 			(effects
 				(font
@@ -45937,7 +46459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -46005,7 +46527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
 			(at 205.74 73.66 0)
 			(effects
 				(font
@@ -46216,7 +46738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 97.79 194.31 0)
 			(effects
 				(font
@@ -46283,7 +46805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 102.87 118.11 0)
 			(effects
 				(font
@@ -46386,7 +46908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 143.51 232.41 0)
 			(effects
 				(font
@@ -46519,7 +47041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 85.09 177.8 0)
 			(effects
 				(font
@@ -46784,7 +47306,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 102.87 148.59 0)
 			(effects
 				(font
@@ -46850,7 +47372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 20.32 125.73 90)
 			(effects
 				(font
@@ -46937,7 +47459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 314.6552 78.74 0)
 			(effects
 				(font
@@ -47008,7 +47530,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:ConfigBlock_2x09_P2.54mm_Vertical"
 			(at 167.64 48.26 0)
 			(effects
 				(font
@@ -47123,7 +47645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 133.35 232.41 0)
 			(effects
 				(font
@@ -47192,7 +47714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 195.58 231.14 0)
 			(effects
 				(font
@@ -47261,7 +47783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:DIN-7"
 			(at 87.63 165.1 0)
 			(effects
 				(font
@@ -47343,7 +47865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 57.15 231.14 0)
 			(effects
 				(font
@@ -47495,7 +48017,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 219.71 0)
+		(at 118.11 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47504,7 +48026,7 @@
 		(fields_autoplaced yes)
 		(uuid "c803896b-0bdd-48a1-8f69-9b6001365817")
 		(property "Reference" "#PWR06"
-			(at 114.3 226.06 0)
+			(at 118.11 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47513,7 +48035,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 223.8431 0)
+			(at 118.11 223.8431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47521,7 +48043,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 219.71 0)
+			(at 118.11 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47530,7 +48052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 219.71 0)
+			(at 118.11 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47539,7 +48061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 219.71 0)
+			(at 118.11 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47585,7 +48107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 107.95 166.37 0)
 			(effects
 				(font
@@ -47720,7 +48242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
 			(at 166.37 73.66 0)
 			(effects
 				(font
@@ -47931,7 +48453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 190.5 195.58 0)
 			(effects
 				(font
@@ -47997,7 +48519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 200.66 231.14 90)
 			(effects
 				(font
@@ -48149,7 +48671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
 			(at 87.63 73.66 0)
 			(effects
 				(font
@@ -48295,7 +48817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 38.1 36.83 0)
 			(effects
 				(font
@@ -48398,7 +48920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:PinHeader_1x02_P2.54mm_V_Tight"
 			(at 171.45 123.19 0)
 			(effects
 				(font
@@ -48442,7 +48964,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 120.65 219.71 180)
+		(at 123.19 219.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48451,7 +48973,7 @@
 		(fields_autoplaced yes)
 		(uuid "d35ca38a-5679-4842-acdb-21f79ec52a79")
 		(property "Reference" "#PWR036"
-			(at 120.65 215.9 0)
+			(at 123.19 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48460,7 +48982,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 120.65 223.8431 0)
+			(at 123.19 223.8431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48468,7 +48990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 219.71 0)
+			(at 123.19 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48477,7 +48999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 219.71 0)
+			(at 123.19 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48486,7 +49008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 120.65 219.71 0)
+			(at 123.19 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48533,7 +49055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-28_W15.24mm_Socket"
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -48875,7 +49397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 101.6 210.82 0)
 			(effects
 				(font
@@ -49009,7 +49531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 107.95 153.67 0)
 			(effects
 				(font
@@ -49142,7 +49664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 321.31 143.51 0)
 			(effects
 				(font
@@ -49385,7 +49907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 295.6052 154.94 0)
 			(effects
 				(font
@@ -49593,7 +50115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal"
 			(at 257.81 170.18 0)
 			(effects
 				(font
@@ -49662,7 +50184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 262.89 156.21 0)
 			(effects
 				(font
@@ -49838,7 +50360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 319.7352 135.89 0)
 			(effects
 				(font
@@ -49908,7 +50430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 220.98 207.01 90)
 			(effects
 				(font
@@ -50171,7 +50693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "EuroCube-65:PinHeader_1x02_P2.54mm_V_Tight"
 			(at 171.45 125.73 0)
 			(effects
 				(font
@@ -50238,7 +50760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 110.49 193.04 0)
 			(effects
 				(font
@@ -50324,7 +50846,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 106.68 223.52 180)
+		(at 105.41 223.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50333,7 +50855,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebb6f48a-7bba-427a-88b2-bd41e78f755b")
 		(property "Reference" "C25"
-			(at 108.839 222.8539 0)
+			(at 107.569 222.8539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50342,7 +50864,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 108.839 225.2782 0)
+			(at 107.569 225.2782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50350,8 +50872,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 106.68 223.52 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 105.41 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50360,7 +50882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 223.52 0)
+			(at 105.41 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50369,7 +50891,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 106.68 223.52 0)
+			(at 105.41 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50679,7 +51201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
 			(at 307.0352 135.89 0)
 			(effects
 				(font
@@ -50747,7 +51269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 83.82 196.85 0)
 			(effects
 				(font
@@ -50816,7 +51338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 297.18 104.14 0)
 			(effects
 				(font
@@ -50987,7 +51509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket"
 			(at 46.99 182.88 0)
 			(effects
 				(font
@@ -51171,7 +51693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 113.03 183.515 0)
 			(effects
 				(font
@@ -51321,6 +51843,7 @@
 		)
 	)
 	(symbol
+		(lib_name "26LS32_1")
 		(lib_id "EuroCube-65:26LS32")
 		(at 71.12 223.52 0)
 		(unit 5)
@@ -51347,7 +51870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 71.12 223.52 0)
 			(effects
 				(font
@@ -51395,7 +51918,7 @@
 		(pin "8"
 			(uuid "e955101f-d880-4fb3-8705-2aa0a55d6899")
 		)
-		(pin "~{G}"
+		(pin "12"
 			(uuid "98a2caca-7060-450f-9a13-2dc07f42600c")
 		)
 		(pin "16"
@@ -51457,7 +51980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 132.08 185.42 0)
 			(effects
 				(font
@@ -51521,7 +52044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 104.14 210.82 0)
 			(effects
 				(font
@@ -51590,7 +52113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 220.98 238.76 0)
 			(effects
 				(font

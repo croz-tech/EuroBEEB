@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EuroCube-65")(type "KiCad")(uri "${KIPRJMOD}/EuroCube-65.pretty")(options "")(descr ""))
+)
