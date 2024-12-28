@@ -141,7 +141,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -251,7 +251,14 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_not_driven|1231900|533400|e6445c34-bdff-4fa6-a0ba-6f8b0b53f765|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
+      "pin_not_driven|1282700|533400|8518fe90-8fa2-4d8a-92bc-db628b99cb0a|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
+      "pin_not_driven|1333500|533400|85255163-fbef-47d9-b516-af0a06fea473|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
+      "pin_not_driven|1358900|533400|fc3b55ff-bfb7-4882-bd8e-17c56a31465c|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
+      "pin_not_driven|1384300|533400|914ef63a-6782-4945-bb97-55e10f020e03|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
+      "power_pin_not_driven|1257300|533400|bc843e5a-4927-4f9e-b8fc-2436c0389bae|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|"
+    ],
     "meta": {
       "version": 0
     },
