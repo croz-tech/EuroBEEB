@@ -1,4 +1,4 @@
-24248880354159492
+24250616383924661
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56445,7 +56445,7 @@ Battery
 
 
 0
-3
+6
 2
 EuroCube-65
 ConfigBlock_2x08_P2.54mm_Vertical
@@ -56468,6 +56468,13 @@ DIN-7
 0
 9
 7
+EuroCube-65
+EuroCube-65-logo
+
+
+0
+0
+0
 EuroCube-65
 PinHeader_1x02_P2.54mm_V_Tight
 Through hole straight pin header, 1x02, 2.54mm pitch, single row
