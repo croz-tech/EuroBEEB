@@ -6,10 +6,10 @@
 	(paper "User" 345.186 266.7)
 	(title_block
 		(title "EUROBEEB")
-		(date "2024-11-16")
+		(date "2024-12-29")
 		(rev "ISSUE 8")
 		(company "steve@croz.co.uk")
-		(comment 1 "Based on issue 7 with addition of R31 pullup")
+		(comment 1 "Based on issue 7 with addition of R31 pullup (opt) and other corrections")
 	)
 	(lib_symbols
 		(symbol "26LS30_1"
@@ -23568,7 +23568,7 @@
 	)
 	(polyline
 		(pts
-			(xy 302.895 31.115) (xy 302.895 33.655)
+			(xy 251.46 27.305) (xy 251.46 29.845)
 		)
 		(stroke
 			(width 0)
@@ -23628,7 +23628,17 @@
 	)
 	(polyline
 		(pts
-			(xy 306.705 23.495) (xy 307.975 22.225)
+			(xy 167.005 211.455) (xy 168.275 211.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0617646d-4a44-4935-9ad5-ed9aebcc96c6")
+	)
+	(polyline
+		(pts
+			(xy 255.27 19.685) (xy 256.54 18.415)
 		)
 		(stroke
 			(width 0)
@@ -23798,7 +23808,7 @@
 	)
 	(polyline
 		(pts
-			(xy 310.515 31.115) (xy 310.515 33.655)
+			(xy 259.08 27.305) (xy 259.08 29.845)
 		)
 		(stroke
 			(width 0)
@@ -24068,7 +24078,7 @@
 	)
 	(polyline
 		(pts
-			(xy 307.975 24.765) (xy 309.245 23.495)
+			(xy 256.54 20.955) (xy 257.81 19.685)
 		)
 		(stroke
 			(width 0)
@@ -25218,7 +25228,7 @@
 	)
 	(polyline
 		(pts
-			(xy 313.055 31.115) (xy 313.055 33.655)
+			(xy 261.62 27.305) (xy 261.62 29.845)
 		)
 		(stroke
 			(width 0)
@@ -25538,7 +25548,7 @@
 	)
 	(polyline
 		(pts
-			(xy 302.895 33.655) (xy 304.165 32.385)
+			(xy 251.46 29.845) (xy 252.73 28.575)
 		)
 		(stroke
 			(width 0)
@@ -25618,7 +25628,7 @@
 	)
 	(polyline
 		(pts
-			(xy 300.355 31.115) (xy 300.355 33.655)
+			(xy 248.92 27.305) (xy 248.92 29.845)
 		)
 		(stroke
 			(width 0)
@@ -26238,7 +26248,7 @@
 	)
 	(polyline
 		(pts
-			(xy 305.435 22.225) (xy 305.435 24.765)
+			(xy 254 18.415) (xy 254 20.955)
 		)
 		(stroke
 			(width 0)
@@ -26586,6 +26596,16 @@
 		)
 		(uuid "4def42d8-3716-483a-9ad3-e0ea0124e993")
 	)
+	(polyline
+		(pts
+			(xy 167.005 211.455) (xy 167.64 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e15be54-ebde-4df5-9c27-40e66348bd58")
+	)
 	(wire
 		(pts
 			(xy 214.63 50.8) (xy 215.9 49.53)
@@ -26818,7 +26838,7 @@
 	)
 	(polyline
 		(pts
-			(xy 304.165 23.495) (xy 306.705 23.495)
+			(xy 252.73 19.685) (xy 255.27 19.685)
 		)
 		(stroke
 			(width 0)
@@ -26925,6 +26945,16 @@
 			(type default)
 		)
 		(uuid "57bfd9c2-4c72-402c-b741-1d1978a8d4ce")
+	)
+	(polyline
+		(pts
+			(xy 167.64 210.82) (xy 168.275 211.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c91cd5-762a-4d79-8c8f-319e66d002d1")
 	)
 	(wire
 		(pts
@@ -27876,6 +27906,16 @@
 		)
 		(uuid "72378383-4d9b-474b-a018-f6c2b5a1a3a5")
 	)
+	(polyline
+		(pts
+			(xy 167.005 210.82) (xy 168.275 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7244890f-4cd7-43d8-b8b8-368b693325c2")
+	)
 	(bus
 		(pts
 			(xy 104.14 36.83) (xy 106.68 36.83)
@@ -28268,13 +28308,23 @@
 	)
 	(polyline
 		(pts
-			(xy 309.245 23.495) (xy 316.865 23.495)
+			(xy 257.81 19.685) (xy 265.43 19.685)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a6d3a70-e13b-4fb7-820e-2cd46c64aa7c")
+	)
+	(polyline
+		(pts
+			(xy 167.64 210.185) (xy 167.64 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab90381-170c-4712-843b-510419e67577")
 	)
 	(wire
 		(pts
@@ -28568,7 +28618,7 @@
 	)
 	(polyline
 		(pts
-			(xy 309.245 32.385) (xy 316.865 32.385)
+			(xy 257.81 28.575) (xy 265.43 28.575)
 		)
 		(stroke
 			(width 0)
@@ -28748,7 +28798,7 @@
 	)
 	(polyline
 		(pts
-			(xy 316.865 23.495) (xy 318.135 24.765)
+			(xy 265.43 19.685) (xy 266.7 20.955)
 		)
 		(stroke
 			(width 0)
@@ -28838,7 +28888,7 @@
 	)
 	(polyline
 		(pts
-			(xy 316.865 32.385) (xy 318.135 31.115)
+			(xy 265.43 28.575) (xy 266.7 27.305)
 		)
 		(stroke
 			(width 0)
@@ -28878,7 +28928,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.595 31.115) (xy 315.595 33.655)
+			(xy 264.16 27.305) (xy 264.16 29.845)
 		)
 		(stroke
 			(width 0)
@@ -29148,7 +29198,7 @@
 	)
 	(polyline
 		(pts
-			(xy 315.595 22.225) (xy 315.595 24.765)
+			(xy 264.16 18.415) (xy 264.16 20.955)
 		)
 		(stroke
 			(width 0)
@@ -29258,7 +29308,7 @@
 	)
 	(polyline
 		(pts
-			(xy 307.975 33.655) (xy 309.245 32.385)
+			(xy 256.54 29.845) (xy 257.81 28.575)
 		)
 		(stroke
 			(width 0)
@@ -29798,7 +29848,7 @@
 	)
 	(polyline
 		(pts
-			(xy 310.515 22.225) (xy 310.515 24.765)
+			(xy 259.08 18.415) (xy 259.08 20.955)
 		)
 		(stroke
 			(width 0)
@@ -30298,7 +30348,7 @@
 	)
 	(polyline
 		(pts
-			(xy 301.625 32.385) (xy 302.895 33.655)
+			(xy 250.19 28.575) (xy 251.46 29.845)
 		)
 		(stroke
 			(width 0)
@@ -30528,7 +30578,7 @@
 	)
 	(polyline
 		(pts
-			(xy 297.815 33.655) (xy 299.085 32.385)
+			(xy 246.38 29.845) (xy 247.65 28.575)
 		)
 		(stroke
 			(width 0)
@@ -30568,7 +30618,7 @@
 	)
 	(polyline
 		(pts
-			(xy 299.085 32.385) (xy 301.625 32.385)
+			(xy 247.65 28.575) (xy 250.19 28.575)
 		)
 		(stroke
 			(width 0)
@@ -31108,7 +31158,7 @@
 	)
 	(polyline
 		(pts
-			(xy 304.165 32.385) (xy 305.435 33.655)
+			(xy 252.73 28.575) (xy 254 29.845)
 		)
 		(stroke
 			(width 0)
@@ -32528,7 +32578,7 @@
 	)
 	(polyline
 		(pts
-			(xy 300.355 22.225) (xy 300.355 24.765)
+			(xy 248.92 18.415) (xy 248.92 20.955)
 		)
 		(stroke
 			(width 0)
@@ -32548,7 +32598,7 @@
 	)
 	(polyline
 		(pts
-			(xy 302.895 24.765) (xy 304.165 23.495)
+			(xy 251.46 20.955) (xy 252.73 19.685)
 		)
 		(stroke
 			(width 0)
@@ -32628,7 +32678,7 @@
 	)
 	(polyline
 		(pts
-			(xy 313.055 22.225) (xy 313.055 24.765)
+			(xy 261.62 18.415) (xy 261.62 20.955)
 		)
 		(stroke
 			(width 0)
@@ -32825,6 +32875,16 @@
 			(type default)
 		)
 		(uuid "fae7c7c2-219d-41ee-ac41-dadc9bd2ac0e")
+	)
+	(polyline
+		(pts
+			(xy 167.64 211.455) (xy 167.64 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3ffccf-c507-4a18-8e27-4b4568793154")
 	)
 	(wire
 		(pts
@@ -33037,7 +33097,7 @@
 		(uuid "ffa26668-a852-4b88-9b8e-ee27ffa2b550")
 	)
 	(circle
-		(center 318.135 31.115)
+		(center 266.7 27.305)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33050,7 +33110,7 @@
 		(uuid 053429fa-0ca2-41b7-8452-954cc1453ddd)
 	)
 	(circle
-		(center 315.595 24.765)
+		(center 264.16 20.955)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33063,7 +33123,7 @@
 		(uuid 0ef996d9-6513-40ce-b93a-12904fed1ec4)
 	)
 	(circle
-		(center 310.515 22.225)
+		(center 259.08 18.415)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33076,7 +33136,7 @@
 		(uuid 183683a7-5592-4758-8025-7479cb4083f9)
 	)
 	(circle
-		(center 315.595 31.115)
+		(center 264.16 27.305)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33089,7 +33149,7 @@
 		(uuid 1e7276bd-8bb5-4935-8ba2-6cb072a3a941)
 	)
 	(circle
-		(center 318.135 33.655)
+		(center 266.7 29.845)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33102,7 +33162,7 @@
 		(uuid 2996c7f7-8d59-4058-b123-97e6e1cd9464)
 	)
 	(circle
-		(center 310.515 33.655)
+		(center 259.08 29.845)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33115,7 +33175,7 @@
 		(uuid 2cbe09fe-3ef6-44ce-b942-11175638dec0)
 	)
 	(circle
-		(center 307.975 24.765)
+		(center 256.54 20.955)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33128,7 +33188,7 @@
 		(uuid 2cbe3e7d-18cd-43ac-8e01-a73084393509)
 	)
 	(circle
-		(center 300.355 31.115)
+		(center 248.92 27.305)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33141,7 +33201,7 @@
 		(uuid 30047157-b665-4e4c-ac25-11e020dcb2f2)
 	)
 	(circle
-		(center 307.975 33.655)
+		(center 256.54 29.845)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33154,7 +33214,7 @@
 		(uuid 35ed07e8-d9c7-44cc-b02f-05139a1319df)
 	)
 	(circle
-		(center 300.355 22.225)
+		(center 248.92 18.415)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33167,8 +33227,8 @@
 		(uuid 385c2ecb-4608-498d-a983-e41504b2faf6)
 	)
 	(rectangle
-		(start 296.545 20.955)
-		(end 319.405 26.035)
+		(start 245.11 17.145)
+		(end 267.97 22.225)
 		(stroke
 			(width 0)
 			(type default)
@@ -33179,8 +33239,8 @@
 		(uuid 4beefa87-6747-4d07-9591-4662d57b3142)
 	)
 	(rectangle
-		(start 296.545 29.845)
-		(end 319.405 34.925)
+		(start 245.11 26.035)
+		(end 267.97 31.115)
 		(stroke
 			(width 0)
 			(type default)
@@ -33191,7 +33251,7 @@
 		(uuid 5878969b-7553-426a-82cc-050f1a1e4b0a)
 	)
 	(circle
-		(center 305.435 33.655)
+		(center 254 29.845)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33204,7 +33264,7 @@
 		(uuid 642fdc56-d37c-45c3-829d-702a617404d9)
 	)
 	(circle
-		(center 300.355 33.655)
+		(center 248.92 29.845)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33217,7 +33277,7 @@
 		(uuid 64bc5987-e37c-4d78-bc9c-f17397f9abf9)
 	)
 	(circle
-		(center 315.595 22.225)
+		(center 264.16 18.415)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33230,7 +33290,7 @@
 		(uuid 73ec3f5f-f170-4ead-86a2-367da66add7a)
 	)
 	(circle
-		(center 318.135 22.225)
+		(center 266.7 18.415)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33243,7 +33303,7 @@
 		(uuid 77cc56dd-526a-4c19-99b9-3df5333f8d6d)
 	)
 	(circle
-		(center 307.975 22.225)
+		(center 256.54 18.415)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33256,7 +33316,7 @@
 		(uuid 7e458f56-adbc-420d-8f53-f77d9b2d8396)
 	)
 	(circle
-		(center 300.355 24.765)
+		(center 248.92 20.955)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33269,7 +33329,7 @@
 		(uuid 811868cf-47cd-496c-ab77-6d86f00ceae7)
 	)
 	(circle
-		(center 313.055 22.225)
+		(center 261.62 18.415)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33282,7 +33342,7 @@
 		(uuid 8734a2c3-1034-422b-99c9-27d071d5a9bc)
 	)
 	(circle
-		(center 318.135 24.765)
+		(center 266.7 20.955)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33295,7 +33355,7 @@
 		(uuid 8d00afa8-f38b-49c0-9377-d3c33bf58df4)
 	)
 	(circle
-		(center 302.895 31.115)
+		(center 251.46 27.305)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33308,7 +33368,7 @@
 		(uuid a3386c77-1041-4b10-9183-dd1ec9429c23)
 	)
 	(circle
-		(center 302.895 22.225)
+		(center 251.46 18.415)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33321,7 +33381,7 @@
 		(uuid ac6d7cff-c1d0-491c-a005-46aeff1e4a07)
 	)
 	(circle
-		(center 297.815 24.765)
+		(center 246.38 20.955)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33334,7 +33394,7 @@
 		(uuid aef02ea5-c3fc-4d72-8080-a1cda8b93ea9)
 	)
 	(circle
-		(center 305.435 22.225)
+		(center 254 18.415)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33347,7 +33407,7 @@
 		(uuid b545fa64-2641-445f-a135-00e645c719e9)
 	)
 	(circle
-		(center 305.435 31.115)
+		(center 254 27.305)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33360,7 +33420,7 @@
 		(uuid bfa91a98-f54c-47c8-8adc-3742d7a26f48)
 	)
 	(circle
-		(center 302.895 24.765)
+		(center 251.46 20.955)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33373,7 +33433,7 @@
 		(uuid c078647f-399e-4a66-9950-53dd8cd70fd9)
 	)
 	(circle
-		(center 307.975 31.115)
+		(center 256.54 27.305)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33386,7 +33446,7 @@
 		(uuid c5a4e017-2f79-4338-b3a4-22422419c887)
 	)
 	(circle
-		(center 313.055 31.115)
+		(center 261.62 27.305)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33399,7 +33459,7 @@
 		(uuid d96a6629-b2d8-417d-8bd0-b32e5ae9982f)
 	)
 	(circle
-		(center 297.815 22.225)
+		(center 246.38 18.415)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33412,7 +33472,7 @@
 		(uuid db69bd65-c7d5-42a6-80b3-f2aca6c1b670)
 	)
 	(circle
-		(center 315.595 33.655)
+		(center 264.16 29.845)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33425,7 +33485,7 @@
 		(uuid dd53b450-9a17-4cac-bd67-4d30321d78a4)
 	)
 	(circle
-		(center 313.055 33.655)
+		(center 261.62 29.845)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33438,7 +33498,7 @@
 		(uuid de94babb-7cf8-4174-abdb-518e1ebc0b6f)
 	)
 	(circle
-		(center 302.895 33.655)
+		(center 251.46 29.845)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33451,7 +33511,7 @@
 		(uuid e3af5efb-7fa3-40fe-b76a-fd21c775cbe0)
 	)
 	(circle
-		(center 310.515 24.765)
+		(center 259.08 20.955)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33464,7 +33524,7 @@
 		(uuid e9bb1c5b-51bd-418b-b497-82aeca2a14fd)
 	)
 	(circle
-		(center 297.815 33.655)
+		(center 246.38 29.845)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33477,7 +33537,7 @@
 		(uuid ed6c274a-c887-4131-8e6b-998abe296518)
 	)
 	(circle
-		(center 310.515 31.115)
+		(center 259.08 27.305)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33490,7 +33550,7 @@
 		(uuid f20ee861-cb46-4f2d-a451-dc6f488afcb5)
 	)
 	(circle
-		(center 297.815 31.115)
+		(center 246.38 27.305)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33503,7 +33563,7 @@
 		(uuid f78955d2-7064-44b3-adc1-2a2198223dde)
 	)
 	(circle
-		(center 305.435 24.765)
+		(center 254 20.955)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33516,7 +33576,7 @@
 		(uuid fa7dcf3a-d367-494f-96a4-1faa87e76425)
 	)
 	(circle
-		(center 313.055 24.765)
+		(center 261.62 20.955)
 		(radius 0.635)
 		(stroke
 			(width 0)
@@ -33530,7 +33590,7 @@
 	)
 	(text "~{LPAGE}=~{BLK1}"
 		(exclude_from_sim no)
-		(at 312.42 216.662 0)
+		(at 299.72 190.246 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33540,7 +33600,7 @@
 	)
 	(text "~{HPAGE}=~{BLK2}"
 		(exclude_from_sim no)
-		(at 312.42 214.122 0)
+		(at 299.72 187.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33628,6 +33688,26 @@
 		)
 		(uuid "62fe03c4-2153-4b10-a9f3-ed1df975d11a")
 	)
+	(text "or"
+		(exclude_from_sim no)
+		(at 167.767 209.423 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d1a536b-9312-402a-a77a-f6eb34f8b720")
+	)
+	(text "NiMh\nor CR1220\ncoin cell"
+		(exclude_from_sim no)
+		(at 157.48 223.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89ff20f1-39f8-47fc-a085-c5e536cb0f48")
+	)
 	(text "ADDRESS\nDECODE"
 		(exclude_from_sim no)
 		(at 205.74 137.414 0)
@@ -33650,7 +33730,7 @@
 	)
 	(text "5565 CONFIGURATION"
 		(exclude_from_sim no)
-		(at 307.975 19.939 0)
+		(at 256.54 16.129 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33660,7 +33740,7 @@
 	)
 	(text "~{M0OE}=HOLE=DESELECT"
 		(exclude_from_sim no)
-		(at 317.5 218.948 0)
+		(at 304.8 192.532 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33670,7 +33750,7 @@
 	)
 	(text "27128 CONFIGURATION"
 		(exclude_from_sim no)
-		(at 307.975 28.829 0)
+		(at 256.54 25.019 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33688,9 +33768,9 @@
 		)
 		(uuid "e5f22902-a6e9-4c35-96ba-70170dadced7")
 	)
-	(text "Errors on original schematics:\n\n1. IC1 pin 28 R/~{W} connected to IRQ instead of B R/~{W}\n2. C8,10, 13, 16 not fitted according to schematic note, but C8 trimmer is\n3. C10, 11, 12, 13 vaues missing from BOM (47p)"
+	(text "Errors on original schematics:\n1. IC1 pin 28 R/~{W} connected to IRQ instead of B R/~{W}\n2. C8,10, 13, 16 not fitted according to schematic note,\n   but C8 trimmer is\n3. C10, 11, 12, 13 vaues missing from BOM (47p)\n4. R9, 14 terminating resistor missing from BOM (240R)"
 		(exclude_from_sim no)
-		(at 253.746 204.724 0)
+		(at 276.352 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33698,6 +33778,17 @@
 			(justify left)
 		)
 		(uuid "ed195d1f-d224-4c98-ba8a-d2d71ae8db25")
+	)
+	(text "Notes:\n1. Fit C10-13 to slew-rate limit serial outputs (not normally needed)\n2. Fit R9,R14 for RS-422 terminating resistors (not needed for RS-232/423\n3. R31, BUSY+(RTS) pull-up resistor added to avoid BBC modification (see manual P51)\n4. Fit L2,L3 by default for RS-232/423 operation / remove for RS-422 network\n5. Fit L3 (pos 3-4) by default for RS-232/423 with on-board -5V supply (IC13)\n6. Fit L4 for serial reset or connect push-button to L11 pins (not both, manual P10-11)\n7. Fit L6-9 by default for EuroBEEB memory decoding\n8. If coin cell used for B1 replace R18 with 1N4148\n"
+		(exclude_from_sim no)
+		(at 242.57 211.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7e1b96b-d0a0-4b2a-a605-26f91bed107a")
 	)
 	(label "A6"
 		(at 247.65 62.23 0)
@@ -40250,7 +40341,7 @@
 		(dnp no)
 		(uuid "439542de-756a-47b6-8ff0-6a62017328ed")
 		(property "Reference" "B1"
-			(at 159.766 221.234 0)
+			(at 154.432 218.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40259,7 +40350,7 @@
 			)
 		)
 		(property "Value" "3V6"
-			(at 159.004 223.52 0)
+			(at 157.734 218.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43087,7 +43178,7 @@
 		(dnp no)
 		(uuid "6a9296e5-d5c1-4181-aae1-29c62a826c8a")
 		(property "Reference" "R18"
-			(at 166.116 208.28 0)
+			(at 165.862 204.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43096,7 +43187,7 @@
 			)
 		)
 		(property "Value" "1K8"
-			(at 166.116 210.82 0)
+			(at 165.862 206.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43972,6 +44063,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
