@@ -251,14 +251,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_driven|1231900|533400|e6445c34-bdff-4fa6-a0ba-6f8b0b53f765|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
-      "pin_not_driven|1282700|533400|8518fe90-8fa2-4d8a-92bc-db628b99cb0a|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
-      "pin_not_driven|1333500|533400|85255163-fbef-47d9-b516-af0a06fea473|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
-      "pin_not_driven|1358900|533400|fc3b55ff-bfb7-4882-bd8e-17c56a31465c|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
-      "pin_not_driven|1384300|533400|914ef63a-6782-4945-bb97-55e10f020e03|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|",
-      "power_pin_not_driven|1257300|533400|bc843e5a-4927-4f9e-b8fc-2436c0389bae|00000000-0000-0000-0000-000000000000|/2a966873-1bce-441e-b1e5-16428638ef47|/2a966873-1bce-441e-b1e5-16428638ef47|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -574,7 +567,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "bom/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -585,7 +578,160 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Device",
+            "name": "Sim.Device",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Pins",
+            "name": "Sim.Pins",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Source",
+            "name": "Source",
+            "show": true
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      },
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Device",
+            "name": "Sim.Device",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Pins",
+            "name": "Sim.Pins",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Source",
+            "name": "Source",
+            "show": true
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "Steve's Default",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
@@ -648,6 +794,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Source",
+          "name": "Source",
+          "show": true
         }
       ],
       "filter_string": "",
