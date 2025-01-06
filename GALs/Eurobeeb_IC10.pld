@@ -1,0 +1,64 @@
+Name     Eurobeeb_IC10 ;
+PartNo   IC10 ;
+Date     03/12/2024 ;
+Revision 02 ;
+Designer Steve Crozier ;
+Company  None ;
+Assembly None ;
+Location None ;
+Device   g16v8 ;
+
+/* Note the switching of the first digit of the addresses from F to E for modes 4-5
+   is done externally by IC9.  IO is enabled for the selected Fxxx or Exxx address
+   space. A11-15 are internally represented as forced high for easy decoding.     */
+
+/* *************** INPUT PINS *********************/
+PIN 1  = A3    ; /* Addresses directly for decoding */ 
+PIN 2  = A4    ; /*                                 */ 
+PIN 3  = A5    ; /*                                 */ 
+PIN 4  = A6    ; /*                                 */ 
+PIN 5  = A7    ; /*                                 */ 
+PIN 6  = A8    ; /*                                 */ 
+PIN 7  = A9    ; /*                                 */ 
+PIN 8  = A10   ; /*                                 */ 
+PIN 9  = !IO   ; /* From IC9 indicating F800..FFFF  */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN 12 = D7    ; /* Test signal, N/C                */
+PIN 13 = D6    ; /* Test signal, N/C                */ 
+PIN 14 = !BLK2 ; /* Hi page for external devices (active low)   */ 
+PIN 15 = !BLK1 ; /* Lo page for external devices (active low)   */ 
+PIN 16 = !M0OE ; /* M0 Output Enable             (active low)   */ 
+PIN 17 = CKS   ; /* M3002 Clock Select           (active high)  */ 
+PIN 18 = !VIA  ; /* VIA Select                   (active low)   */ 
+PIN 19 = !ACIA ; /* ACIA Select                  (active low)   */
+
+A15 = 'b'1;
+A14 = 'b'1;
+A13 = 'b'1;
+A12 = 'b'1;
+A11 = 'b'1;
+
+FIELD Address = [A15..A3];
+
+/* External address decoding */
+BLK1 = IO & Address:[FE00..FE7F]; /* LPAGE */
+BLK2 = IO & Address:[FE80..FEFF]; /* HPAGE */
+
+/* Internal device address decoding */
+VIA  = IO & Address:[FE00..FE0F];
+ACIA = IO & Address:[FE10..FE17];
+CKS  = IO & Address:[FE18..FE1F];
+
+/* Enables M0 output enable only outside the used IO address space (FE00-FEFF) */
+M0OE = !(IO & Address:[FE00..FEFF]);
+
+/* Debug outputs: not connected / not used */
+D6 = IO & Address:[FE60..FE7F];
+D7 = IO & Address:[FE00..FEFF];
+
+/* Notes:
+   - Checked and matches ic10v2.txt from the original PROMS
+   - Checked and matches the internal IO address map in the CUBE-65 user manual P20
+   - Checked with EuroBeeb manual page 135
+   - M0OE fixed with rev 02 (previously M0 and IO contention) */

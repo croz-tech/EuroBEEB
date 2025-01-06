@@ -1,0 +1,96 @@
+Name     Eurobeeb_IC9 ;
+PartNo   IC9 ;
+Date     03/12/2024 ;
+Revision 04 ;
+Designer Steve Crozier ;
+Company  None ;
+Assembly None ;
+Location None ;
+Device   g16v8 ;
+
+/* *************** INPUT PINS *********************/
+PIN 1  = L6    ; /* Link/mode select inputs         */ 
+PIN 2  = L7    ; /*                                 */ 
+PIN 3  = L8    ; /*                                 */ 
+PIN 4  = L9    ; /*                                 */ 
+PIN 5  = A11   ; /* Address inputs to decode        */ 
+PIN 6  = A12   ; /*                                 */ 
+PIN 7  = A13   ; /*                                 */ 
+PIN 8  = A14   ; /*                                 */ 
+PIN 9  = A15   ; /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN 12 = !M0   ; /*                                 */ 
+PIN 13 = !M1   ; /*                                 */ 
+PIN 14 = !M2   ; /*                                 */ 
+PIN 15 = !M3   ; /*                                 */ 
+PIN 16 = !CMOS ; /*                                 */ 
+PIN 17 = !BLK0 ; /*                                 */ 
+PIN 19 = !IO   ; /*                                 */ 
+
+FIELD Address = [A15..A11];
+FIELD Mode = [L9..L6];
+
+/* The EuroCUBE-65/EuroBeeb memory map can be configured with links L9-L6. Most
+boards are configured to memory map 1.
+
+                                L8-L6 links
+              0        1        2          4        5        6
+             0000     0001     0010       0100     0101     0110
+     0000 +--------+--------+--------+ +--------+--------+--------+
+ PAGE0    |        |        |   M3   | |        |        |        |
+     1000 |   M3   |        +--------+ |   M3   |        |        |
+ PAGE1    |        |        |   M2   | |        |        |        |
+     2000 +--------+   M3   +--------+ +--------+   M3   |   M3   |
+          |        |        |        | |        |        |        |
+ PAGE2TO3 |   M2   |        |        | |   M2   |        |        |
+          |        |        |        | |        |        |        |
+     4000 +--------+--------+        | +--------+--------+--------+
+          |        |        |        | |        |        |        |
+          |        |        |        | |        |        |        |
+          |        |        |        | |        |        |        |
+ PAGE4TO7 |        |   M2   |        | |        |   M2   |        |
+          |        |        |        | |        |        |        |
+          |        |        |        | |        |        |        |
+          |        |        |        | |        |        |        |
+     8000 +--------+--------+--------+ +        +--------+        |
+          |                          | |                          |
+ PAGE8TOB |            M1            | |                          |
+          |                          | |                          |
+     C000 +--------+--------+--------+ |                 +--------+
+ PAGEC    |            M0            | |                 |        |
+     D000 +--------+--------+--------+ |                 |   M2   |
+ PAGED    |           BLK0           | |                 |        |
+     E000 +--------+--------+--------+ +-----------------+--------+
+ PAGEE1   |                          | |         M1/BLK0          |
+     E800 +            M0            + +--------------------------+
+ PAGEE2   |                          | |          M1/IO           |
+     F000 +--------+--------+--------+ +--------------------------+
+ PAGEF1   |            M0            | |                          |
+     F800 +--------+--------+--------+ +           M0             |
+ PAGEF2   |           M0/IO          | |                          |
+     FFFF +--------+--------+--------+ +--------------------------+  */
+
+PAGE0    = Address:[0000..0FFF];
+PAGE1    = Address:[1000..1FFF];
+PAGE2TO3 = Address:[2000..3FFF];
+PAGE4TO7 = Address:[4000..7FFF];
+PAGE8TOB = Address:[8000..BFFF];
+PAGEC    = Address:[C000..CFFF];
+PAGED    = Address:[D000..DFFF];
+PAGEE1   = Address:[E000..E7FF];
+PAGEE2   = Address:[E800..EFFF];
+PAGEF1   = Address:[F000..F7FF];
+PAGEF2   = Address:[F800..FF00]; /* Effectively FFFF since lower bits aren't decoded here */ 
+
+M3  = PAGE0 # (PAGE1 &!(Mode:'b'X010)) # (PAGE2TO3 & (Mode:'b'X001)) # (PAGE2TO3 & (Mode:'b'X101)) # (PAGE2TO3 & (Mode:'b'X110)) ;
+
+M2 = (PAGE1 & Mode:'b'X010) & (PAGE2TO3 & Mode:'b'X000) # (PAGE2TO3 & Mode:'b'X100) # (PAGE4TO7 & Mode:'b'X001) # (PAGE4TO7 & Mode:'b'X101) # (PAGEC & Mode:'b'X110) # (PAGED & Mode:'b'X110);
+
+M1 = (PAGE8TOB & Mode:'b'X0XX) # (PAGEE1 & Mode:'b'X1XX) # (PAGEE2 & Mode:'b'X1XX);
+
+M0 = (PAGEC & Mode:'b'X0XX) # (PAGEE1 & Mode:'b'X0XX) # (PAGEE2 & Mode:'b'X0XX) # PAGEF1 # PAGEF2;
+
+BLK0 = (PAGED & Mode:'b'X0XX) # (PAGEE1 & Mode:'b'X1XX);
+
+IO = (PAGEE1 & Mode:'b'X1XX) # (PAGEF2 & Mode:'b'X0XX);
