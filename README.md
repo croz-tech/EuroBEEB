@@ -1,7 +1,7 @@
 # EuroBEEB
 Re-creation of the Control Universal EuroBEEB. EuroBEEB was an Acorn BBC Micro-compatible embedded controller from the early-mid 1980s of the Eurocard format (160mm x 100mm). A standard DIN 41612 bus connector makes the CPU card compatible with the CUBE range of Eurocards.  For a comprehensive background and writeup see https://croz.co.uk/vintage-computer-robot-collection/control-universal-eurobeeb/
 
-![EuroBEEB recreated](Finished populated EuroBEEB.jpg "EuroBEEB recreated")
+![Finished populated EuroBEEB.jpg](https://github.com/croz-tech/EuroBEEB/blob/main/Finished%20populated%20EuroBEEB.jpg) "EuroBEEB recreated")
 
 # Features
 * 6502 CPU
