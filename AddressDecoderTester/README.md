@@ -1,2 +1,2 @@
 This uses an Arduino Mega and runs through all possible 16bit memory space addresses to the GAL(s) while monitoring the decoded outputs and writing to the serial debug to create a visual memory map.
-Developed for an Arduino Mega 1280, but could run on a different 'Mega' board so long as it has 5V logic.  Refer to the writeup (https://croz.co.uk/vintage-computer-robot-collection/control-universal-eurobeeb/)and the comments in the source to understand how to wire this to the GALs.
+Developed for an Arduino Mega 1280, but could run on a different 'Mega' board so long as it has 5V logic.  Refer to the writeup (https://croz.co.uk/vintage-computer-robot-collection/control-universal-eurobeeb/) and the comments in the source to understand how to wire this to the GALs.
