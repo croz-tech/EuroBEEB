@@ -1,5 +1,5 @@
 "Reference","Value","Qty","DNP","Source"
-"B1","3V6","1","","NiMh: https://www.ebay.com/itm/303608055779 or Coin cell: https://mou.sr/4iOCzqd "
+"B1","2V4-3V6","1","","NiMh: https://www.ebay.com/itm/303608055779 or CR1220 coin cell (https://a.co/d/0sKtg3F) and holder (https://mou.sr/4iOCzqd)"
 "C1,C4,C6,C7,C9,C15,C17,C18,C19,C27","100n","10","","Mouser https://mou.sr/3VUTNs3"
 "C8","5-40p","1","","(or 5-30pF) must be small footprint e.g. Anchor Electronics https://anchor-electronics.com/price-list.pdf"
 "C10,C11,C12,C13","47p","4","DNP","Mouser https://mou.sr/4iUAKb8"

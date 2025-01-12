@@ -368,6 +368,19 @@
 				)
 			)
 		)
+		(property "Source" "Ebay, example: https://www.ebay.com/itm/363965912636"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9a8fa24-c3b2-4d19-95ec-6c62d873af02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP* PDIP* SOIC* SO* PLCC*")
 		(path "/4671353e-e81a-40cc-8c89-5adfb3c47e9c")
 		(sheetname "Root")
@@ -914,6 +927,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4gzF7GX"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f472f645-8faa-488b-a70e-b8ff314b2b84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b75e4c74-7004-4a64-8c72-7dceb22a29dd")
 		(sheetname "Root")
@@ -1107,6 +1133,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/4gFZO4k"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4d0e27d-0c1e-4836-ba74-c9308d88dd42")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1382,6 +1421,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/4gSpnyA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a06e3b4-ddf7-4b26-b8b9-5cb23368b13b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1766,6 +1818,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3S4nkwA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08f0f1a9-c41b-461d-a61d-127898e1a29f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4ab30fa9-5778-4457-ae76-e1504a60de8f")
 		(sheetname "Root")
@@ -1959,6 +2024,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16762e04-cf9b-4a5a-9e84-624d68f97464")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2218,6 +2296,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4gAKzt4"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7535bb48-bdfe-4675-afef-1ef49f611cee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6bd6b5ec-9f2a-4c9b-8fc9-ec274d6bc83c")
 		(sheetname "Root")
@@ -2415,6 +2506,19 @@
 				)
 			)
 		)
+		(property "Source" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaf52043-60b5-4f7e-9c01-e1a34402d0a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/57fa2d93-caeb-49e7-84c5-90c583a081ae")
 		(sheetname "Root")
@@ -2532,8 +2636,21 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4gUzrHh"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1578125-20bf-4ffe-83f0-5ff17c8dd081")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14*")
-		(path "/5e87a0ae-1a90-45ca-b53b-602b81730662")
+		(path "/724a2c2a-8b86-4ae7-9efc-def70daf41d1")
 		(sheetname "Root")
 		(sheetfile "EuroCube-65.kicad_sch")
 		(attr through_hole)
@@ -3000,6 +3117,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4iUAKb8"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcd5aa64-4e4e-43a9-85d3-543504e5c197")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d883559b-4eb0-4610-ab42-9c8b55d3a11d")
 		(sheetname "Root")
@@ -3255,6 +3385,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3S4nkwA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c70370b-9241-404a-83ad-a76fc8733fee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b505c7c0-99a0-4682-8846-87473c14030d")
 		(sheetname "Root")
@@ -3452,6 +3595,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4j0kbdN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce3dfc52-afa5-4950-96f6-7702af54bb1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/006ecc49-c9a2-4318-819b-82f0ef79249f")
 		(sheetname "Root")
@@ -3645,6 +3801,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb6cdfc9-f861-4e6a-924f-960825163ea1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4282,6 +4451,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2bee397-4628-4b0e-ab69-7495b0e0bfc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/62a33df3-7ad2-4653-ba7d-0d533eee614f")
 		(sheetname "Root")
@@ -4533,6 +4715,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75a28589-1135-4f48-b215-85526a247953")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4800,6 +4995,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5325a8f4-a812-4427-975e-3286cfa06bf3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5437,6 +5645,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3BFqHWN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca897602-ae6e-431f-8574-a65fab9a74ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fc8ae7c1-b699-4110-a1f2-1714a54cb42b")
 		(sheetname "Root")
@@ -5630,6 +5851,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3PdVQDI"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b226538-fbea-4842-b029-94dbc602ee29")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5913,6 +6147,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Ebay, example: https://www.ebay.com/itm/145848493201"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab0b37c1-aa8b-441f-bf30-74360a7430b8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6682,6 +6929,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3PjO638"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fb239d9-cd04-4ecd-acfe-9185229e5c2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/60f30c51-194a-4bd1-9e98-df0b6ae2faf9")
 		(sheetname "Root")
@@ -6953,6 +7213,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35cddd9f-b0d2-4399-9146-1eca0f38c511")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7381,6 +7654,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3O75zLF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "996c9d1a-78a5-437c-a833-d58588f8fc3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5dd6ff78-bb64-4c38-9cf4-dcdb960628b2")
 		(sheetname "Root")
@@ -7636,6 +7922,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3DDC2XZ"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "436f9ee5-ca5a-42ec-870f-9e48b6bae1a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/571e0d94-f276-4a68-8f76-0dbf79d33438")
 		(sheetname "Root")
@@ -7829,6 +8128,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Use 13pF matched to crystals linked below, Mouser https://mou.sr/4a27NpB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70ea5583-2eb6-4d88-a74a-9e2afdce19dd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8084,6 +8396,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03006cc2-4e60-48fe-ad99-fa6effd17762")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -8512,6 +8837,19 @@
 				)
 			)
 		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e1ba401-7597-45f6-bc06-fef3ee91a043")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/356d1dd1-88e8-4c11-9590-ea3189c5fb36")
 		(sheetname "Root")
@@ -8775,6 +9113,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26eb4551-dc09-4392-a130-23a880785b9d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9046,6 +9397,19 @@
 				)
 			)
 		)
+		(property "Source" "(or 5-30pF) must be small footprint e.g. Anchor Electronics https://anchor-electronics.com/price-list.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "045cc5cb-760b-4598-833a-90729449913f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2b8cb152-3042-46a1-b757-402ef7674b26")
 		(sheetname "Root")
@@ -9251,6 +9615,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75a6bf09-a5cb-4f6f-aca7-2f52e325bb5f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9506,6 +9883,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/4fHA8mv"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa6a67cc-0ead-4df4-8efe-eb7f2814d5bf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9785,6 +10175,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3BGw6gi"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21af3fb9-d467-4955-a50b-f302b815f5eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8c767894-e574-482e-8fc5-45877ee51d51")
 		(sheetname "Root")
@@ -10060,6 +10463,19 @@
 				)
 			)
 		)
+		(property "Source" "Use 13pF matched to crystals linked below, Mouser https://mou.sr/4a27NpB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5d166bf-7e9d-4203-b13b-8979d8397085")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/423b5e34-14c7-4558-be37-5fec84a40c2d")
 		(sheetname "Root")
@@ -10315,6 +10731,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3BFqHWN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04991636-fe19-44d5-a5b3-52837a0f6c39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d6a66166-1b6f-4e07-9baf-c8efd5eaacfc")
 		(sheetname "Root")
@@ -10508,6 +10937,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/4iUAKb8"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7326dae-c4b2-4502-82f7-43c6af55dd4b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10767,6 +11209,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbedacca-0f17-4f6c-9ce1-3bcd16cfb2a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ef9bed7e-a546-4b1c-b490-c804b6ed7afc")
 		(sheetname "Root")
@@ -11018,6 +11473,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Anchor Electronics https://anchor-electronics.com/price-list.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9922ab86-98c7-463a-9dda-f248d6f204a0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11523,6 +11991,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4gzFu4j"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ece30161-8af1-47a9-a836-875f92103c2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?92*")
 		(path "/dd44780a-ebdb-422b-a2c6-5b423889aedc")
 		(sheetname "Root")
@@ -11751,6 +12232,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/40g8pVm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc00bb98-d06c-4020-8ae3-01ba9885cab1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12030,6 +12524,19 @@
 				)
 			)
 		)
+		(property "Source" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fca693f-dad5-4a04-ae36-3cb1be6b33fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/fc7012b3-4697-48d6-b865-1e553140e01e")
 		(sheetname "Root")
@@ -12143,6 +12650,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c2b944c-a3cb-4289-b49d-ea61d85fae32")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12402,6 +12922,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4gSpnyA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "107bfb96-f2bc-4929-b163-5df13ad6524c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/efef2056-3143-4925-bc3d-9ad9379c60b8")
 		(sheetname "Root")
@@ -12599,6 +13132,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4gzF7GX"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62443abd-a8a7-4cd1-8f86-009d4b82cf9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6a9296e5-d5c1-4181-aae1-29c62a826c8a")
 		(sheetname "Root")
@@ -12792,6 +13338,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6bd3c8b-6018-4b64-a300-e1a0949da572")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13051,6 +13610,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4j0kbdN"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77132844-78ca-482c-a6ec-8345fb4ea28d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ad7e55d1-4625-4fec-ac84-75c1c61ab3d8")
 		(sheetname "Root")
@@ -13244,6 +13816,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "e.g. 470R Mouser https://mou.sr/3PjO638"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ba0661e-b123-4316-897d-2709a4454258")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13631,6 +14216,19 @@
 				)
 			)
 		)
+		(property "Source" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f458dd98-c6ac-404a-9b40-b6a5975f2e9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7022b5cb-5230-4da8-a55f-9657870b1932")
 		(sheetname "Root")
@@ -13882,6 +14480,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bb70e31-83a5-4a0b-9965-68c73d343d0a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14153,6 +14764,19 @@
 				)
 			)
 		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41f6743b-4432-48e1-b82e-5bb727230311")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/56bf499d-dd08-43c0-8a57-76a10b627e4a")
 		(sheetname "Root")
@@ -14416,6 +15040,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "511f8739-2f53-4dfc-9eb6-cb77c85ec965")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15053,6 +15690,19 @@
 				)
 			)
 		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8165c3de-7ae1-4e31-8dc2-a580753e1452")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/1904a699-c14b-4641-978f-96225e56d273")
 		(sheetname "Root")
@@ -15316,6 +15966,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3BQdcDy"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88173582-dc21-4712-9e04-e419f4b4f23b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16678,6 +17341,19 @@
 				)
 			)
 		)
+		(property "Source" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26675461-9ffd-4550-9bd0-d108bb4781b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ccc862d2-c231-47ae-bb90-bebc3314787e")
 		(sheetname "Root")
@@ -16795,6 +17471,19 @@
 				)
 			)
 		)
+		(property "Source" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4e75fc6-9507-41b8-9d9d-941ad3a13a89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/bc26c29e-ccb0-4137-8d34-f73e89189d64")
 		(sheetname "Root")
@@ -16908,6 +17597,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3O75zLF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6340cc5d-c4f1-4524-8535-66f1336af418")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17167,6 +17869,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/47xjkvW"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "164af81b-921c-4950-8768-c7e15165b84b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?92*")
 		(path "/dfeccd30-c05c-4341-ac5d-71adc2f96193")
 		(sheetname "Root")
@@ -17395,6 +18110,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58e7fafa-fa03-4892-a3e1-bf3ee7dc6827")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17647,6 +18375,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f0231010-a229-422f-bf7c-6e9644b73745")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "DIN-7 ebay example: https://www.ebay.com/itm/254570069647"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "869f8532-1551-4c3c-9ae9-b4ff3ad513d1")
 			(effects
 				(font
 					(size 1 1)
@@ -17950,6 +18691,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Ebay, example: https://www.ebay.com/itm/363965912636"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44d019df-a405-4053-ba5f-6bd907054368")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18500,6 +19254,19 @@
 				)
 			)
 		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0944ed2e-9be9-42a3-bcef-e45c2ea688a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bf23f3ad-e391-4347-babc-6b2a447d8a10")
 		(sheetname "Root")
 		(sheetfile "EuroCube-65.kicad_sch")
@@ -18920,6 +19687,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Ebay, example: https://www.ebay.com/itm/254521312074"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2548947-2965-4b87-9cd2-9df42f092029")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19557,6 +20337,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4iUAKb8"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5da3561c-6854-4666-9c43-f647af01be94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/51599b08-2068-4658-a001-6f4dbc40e7e8")
 		(sheetname "Root")
@@ -19808,6 +20601,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/4fHA8mv"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2c84224-4579-4239-b1b5-eafe9206f37d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20083,6 +20889,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/420G8TU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85b84a19-d44a-4931-afb6-d5f7db23f3b5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20584,6 +21403,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4iOD8jP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8af08b0e-72fa-48eb-b6de-bb6ae0c358b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5e804d4b-dbb7-4c21-89e9-281b1a54917b")
 		(sheetname "Root")
 		(sheetfile "EuroCube-65.kicad_sch")
@@ -20997,6 +21829,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4fHA8mv"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3617ac52-295d-4116-b101-13519ab385ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b6149913-c1f4-4445-8c88-6e6e70430844")
 		(sheetname "Root")
@@ -21272,6 +22117,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3Dz5VIR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da3192de-6dc1-46ef-9f3d-6f18c2f08c8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO?92*")
 		(path "/56decc61-e8e9-407e-9dcf-d1caf12eadca")
 		(sheetname "Root")
@@ -21523,6 +22381,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d93ad380-e814-4a71-a51a-90c69fe61ec2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3wZtszk (plus one extra if using a coin cell for battery backup)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df5923f7-cca4-4896-a1f2-98b4d31b36f7")
 			(effects
 				(font
 					(size 1 1)
@@ -21889,6 +22760,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3PeAg1M"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64b95196-7765-401b-9618-25b74d9b44cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/1045c80c-5d27-45ae-910a-1e2264cfc128")
 		(sheetname "Root")
@@ -22168,6 +23052,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "DIN 41612, 2 row, 64 pos, male, RA, Mouser https://mou.sr/4aexeVj"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5824b07b-ff90-408b-bcf6-b349b53bbdd8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23687,6 +24584,19 @@
 				)
 			)
 		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a7bdee5-a540-4255-ad21-59a0d379599e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/d0e4436b-5303-4fc2-a5bd-9042680dd127")
 		(sheetname "Root")
@@ -23950,6 +24860,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/4iWQR84"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efcd14ec-5c4f-4b00-a38b-27d2b3f495ac")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25312,6 +26235,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3TKMrV4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b73d4acb-905e-4e95-ad6a-681cddf9c8c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SSOP?14* TSSOP?14*")
 		(path "/d081e046-6412-49dd-b63f-0c4dce59d0c3")
 		(sheetname "Root")
@@ -25776,6 +26712,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Ebay, example: https://www.ebay.com/itm/405284509359"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec3df494-87ce-4508-a520-f3af712a5a88")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26545,6 +27494,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3S4nkwA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5391c3ab-d645-4f61-9896-7d6dc6295ebe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/547df0cf-9922-4c7f-aaa9-d45c6f2e653a")
 		(sheetname "Root")
@@ -26738,6 +27700,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "679c49b6-5e10-44d3-ad68-a65270d98d06")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -26993,6 +27968,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3DLIpZ6"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb552e37-c1e2-4783-8902-3996b6bb0675")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28355,6 +29343,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3DDC2XZ"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1831ebba-18bd-45fe-a6db-427e25438786")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/543676a6-2735-4b78-ad59-9e623965c21d")
 		(sheetname "Root")
@@ -28630,6 +29631,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3S4nkwA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59c4612c-76f6-470e-a72d-4c5cc47c9992")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4b582546-894e-4302-bd34-9a10acc1219b")
 		(sheetname "Root")
@@ -28820,6 +29834,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c5846b7-0575-4033-9922-05fe37017a92")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29355,6 +30382,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3wZtszk (plus one extra if using a coin cell for battery backup)"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46778cd9-30f6-468d-8699-167f719a0efe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/cdb96577-62cb-47e4-9e13-00773c0f0255")
 		(sheetname "Root")
@@ -29710,6 +30750,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3w5Mdxk"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7aa3fcd-a1b2-45be-bc72-fe0920085a9e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -30131,7 +31184,7 @@
 				)
 			)
 		)
-		(property "Value" "3V6"
+		(property "Value" "2V4-3V6"
 			(at 0 1 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30175,6 +31228,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f7865511-03fa-4285-855d-303296433b5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "NiMh: https://www.ebay.com/itm/303608055779 or CR1220 coin cell (https://a.co/d/0sKtg3F) and holder (https://mou.sr/4iOCzqd)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6d8fbdd-c8af-4955-82e9-1a6f337ed116")
 			(effects
 				(font
 					(size 1 1)
@@ -30463,6 +31529,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d4cc91da-a0ef-4524-80dd-6f9b3a9a8db1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3wZtszk (plus one extra if using a coin cell for battery backup)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45e65a3e-07b5-4dc3-9a7a-ff1ab04882d3")
 			(effects
 				(font
 					(size 1 1)
@@ -30829,6 +31908,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4gFZO4k"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d40e7ae1-7380-4a2e-aa29-de7319f71ebc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/8d0c6a75-a1d0-43df-ab56-c6102efbe444")
 		(sheetname "Root")
@@ -31100,6 +32192,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Ebay, example: https://www.ebay.com/itm/226476043911"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6456ac13-6fb9-42c9-ba84-1c6c5d072677")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -31605,6 +32710,19 @@
 				)
 			)
 		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "358df698-0d18-4c17-8ffc-edfae5b30266")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/7bbd9acb-39eb-4599-b020-b6f62dc082a5")
 		(sheetname "Root")
@@ -32044,6 +33162,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4gFZO4k"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdbd3d01-70ac-48d0-907e-e1a814fbf1c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/723ca65c-1f22-41c9-9a70-9c74ab0ff04b")
 		(sheetname "Root")
@@ -32319,6 +33450,19 @@
 				)
 			)
 		)
+		(property "Source" "Use 13pF matched to crystals linked below, Mouser https://mou.sr/4a27NpB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39b3f13e-f88e-494f-9541-dc4e7bf4cfb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/add6085a-d42d-44d3-adcc-54a22f5dab29")
 		(sheetname "Root")
@@ -32574,6 +33718,19 @@
 				)
 			)
 		)
+		(property "Source" "Use 13pF matched to crystals linked below, Mouser https://mou.sr/4a27NpB"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11433266-4838-4c7c-acdc-73f314535d61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6551d60e-9818-404e-a58d-7d9d3a1fefce")
 		(sheetname "Root")
@@ -32825,6 +33982,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Anchor Electronics https://anchor-electronics.com/price-list.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "577c73b4-97d4-43ad-9d4b-7b7af8acd985")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33146,6 +34316,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4gFZO4k"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f3b3c54-86a7-4261-ac37-e0c548fae6b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/385e2600-0a04-4fcd-a76f-04317976377a")
 		(sheetname "Root")
@@ -33339,6 +34522,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/4fGkWG9"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98550491-73e1-4034-8dbb-e655ec2cedca")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -33633,6 +34829,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a363a35-0c78-4e49-9f43-4462e9317ced")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7dd2b087-6e2b-4e57-bef6-4a5da396f355")
 		(sheetname "Root")
@@ -33884,6 +35093,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "26W Latching RA header, male, long latches, Anchor Electronics https://anchor-electronics.com/price-list.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4555ad66-c55d-4eb9-817b-b79442da39ef")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34576,6 +35798,19 @@
 				)
 			)
 		)
+		(property "Source" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf1dd8c9-9605-4fef-b165-a00d4e6bbf14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/036a27c9-ca90-4650-9e49-dbb1b55aca65")
 		(sheetname "Root")
@@ -34689,6 +35924,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/4gFZO4k"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6732315d-b1c0-4713-ac85-6a4c5ed25456")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34886,6 +36134,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin headers / for S2 use https://www.digikey.com/short/ptm1q42r and https://www.digikey.com/short/j0rtv0z3 , for M2/M3 use https://www.ebay.com/itm/224690436829"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85685233-8a43-491c-907f-b348e4d5c4d9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -35523,6 +36784,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/4iUAKb8"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01b2b19a-0d89-4d54-af18-8ae0acb74b67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cb0bd475-c047-4fe4-9f1a-10876637f954")
 		(sheetname "Root")
@@ -35774,6 +37048,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/3BQdcDy"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e91ff70a-2c81-4ead-9bd6-214778a5e011")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -37136,6 +38423,19 @@
 				)
 			)
 		)
+		(property "Source" "Mouser https://mou.sr/3VUTNs3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6eaad619-be35-441d-bf3f-1cbbf70aa972")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/de44fe2d-83e1-4810-87d1-444b659bd986")
 		(sheetname "Root")
@@ -37387,6 +38687,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "0.1\" pin header"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f06ce85d-63ee-4ce5-969a-6d9e14825a7e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -37654,6 +38967,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Source" "Mouser https://mou.sr/4fJod7r"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "889592ff-678f-41e2-a736-bb62678a0a4a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

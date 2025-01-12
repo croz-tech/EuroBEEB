@@ -35026,21 +35026,19 @@
 		(dnp no)
 		(uuid "439542de-756a-47b6-8ff0-6a62017328ed")
 		(property "Reference" "B1"
-			(at 154.432 218.948 0)
+			(at 157.226 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "3V6"
-			(at 157.734 218.948 0)
+		(property "Value" "2V4-3V6"
+			(at 157.226 218.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "EuroCube-65:Battery"
@@ -35070,7 +35068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Source" "NiMh: https://www.ebay.com/itm/303608055779 or Coin cell: https://mou.sr/4iOCzqd "
+		(property "Source" "NiMh: https://www.ebay.com/itm/303608055779 or CR1220 coin cell (https://a.co/d/0sKtg3F) and holder (https://mou.sr/4iOCzqd)"
 			(at 165.1 220.98 0)
 			(effects
 				(font
