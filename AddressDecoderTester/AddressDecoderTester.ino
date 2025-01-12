@@ -17,7 +17,35 @@
 // Enable  LSB = purple, MSB = yellow
 const char ADDR[] = {22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52};
 const char ENABLE[] = {39, 41, 43, 45, 47, 49, 51, 53};
-#define PERIOD 1    // Settling time from addressing to read (ms)
+#define PERIOD 1    // Settling time from addressing to read (ms), added for debug only
+
+
+void checkaddress(unsigned int iAddress)
+{
+  static unsigned int LastWord=0x0000;
+  // Set up the address output (not the most efficient way but bits aren't contiguous on one port)
+    for (unsigned int BitIdx=0 ; BitIdx<=15 ; BitIdx++) {
+      digitalWrite(ADDR[BitIdx],bitRead(iAddress,BitIdx));
+    }
+    //delay (PERIOD);  //Only for debug, running at full speed now
+    // Now read the decoded enable lines
+    unsigned int ReadWord=0;
+    for (int BitIdx=0; BitIdx<=7; BitIdx++) {
+      int Bit = digitalRead(ENABLE[BitIdx]) ? 1:0;
+      bitWrite (ReadWord,BitIdx,Bit);
+    }
+    if ((iAddress==0x0000) || (ReadWord!=LastWord) || (iAddress==0xFFFF)){
+      char output[15];
+      sprintf(output, " 0x%04X", iAddress);
+      Serial.print (output);
+      for (int BitIdx=0; BitIdx<=7; BitIdx++) {
+        Serial.print (" |  ");
+        Serial.print (bitRead(ReadWord,BitIdx));
+      }
+      Serial.println();
+      LastWord=ReadWord;
+    }
+}
 
 void setup() {
   // Setup port directions (Address lines as outputs, Enable lines as inputs)
@@ -33,38 +61,14 @@ void setup() {
   Serial.println ("Address | E0 | E1 | E2 | E3 | E4 | E5 | E6 | E7 ");
   Serial.println ("------------------------------------------------");
 
-  unsigned int LastWord=0x0000;
   // Loop through each of 16 bit addresses
   for (unsigned int Address=0x0000 ; Address<0xFFFF ; Address++) {
-    // Set up the address output (not the most efficient way but bits aren't contiguous on one port)
-    for (unsigned int BitIdx=0 ; BitIdx<=15 ; BitIdx++) {
-      digitalWrite(ADDR[BitIdx],bitRead(Address,BitIdx));
+      checkaddress(Address);
     }
-    delay (PERIOD);
-    // Now read the decoded enable lines
-    unsigned int ReadWord=0;
-    for (int BitIdx=0; BitIdx<=7; BitIdx++) {
-      int Bit = digitalRead(ENABLE[BitIdx]) ? 1:0;
-      bitWrite (ReadWord,BitIdx,Bit);
-    }
-    if ((Address==0x0000) || (ReadWord!=LastWord) || (Address==0xFFFF)){
-      char output[15];
-      //String AddrStr = String(Address, HEX);
-      //String EnStr = String(ReadWord, BIN);
-      //String OutputStr = AddrStr+' '+EnStr;
-      sprintf(output, " 0x%04X", Address);
-      Serial.print (output);
-      for (int BitIdx=0; BitIdx<=7; BitIdx++) {
-        Serial.print (" |  ");
-        Serial.print (bitRead(ReadWord,BitIdx));
-      }
-      Serial.println();
-      LastWord=ReadWord;
-    }
-  }
+  checkaddress(0xFFFF);
   Serial.println ("------------------------------------------------");
   Serial.println ("--Done---");
-}
 
+}
 void loop() {
 }
