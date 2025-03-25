@@ -6,7 +6,7 @@
 	(paper "User" 345.186 266.7)
 	(title_block
 		(title "EUROBEEB")
-		(date "2024-12-29")
+		(date "2025-03-25")
 		(rev "ISSUE 8")
 		(company "steve@croz.co.uk")
 		(comment 1 "Based on issue 7 with addition of R31 pullup (opt) and other corrections")
@@ -28260,7 +28260,7 @@
 		)
 		(uuid "f65f468c-4e4b-489e-8bf8-cac9c017d3f5")
 	)
-	(text "Notes:\n1. Fit C10-13 to slew-rate limit serial outputs (not normally needed)\n2. Fit R9,R14 for RS-422 terminating resistors (not needed for RS-232/423)\n3. R31, BUSY+(RTS) pull-up resistor added to avoid BBC modification (see manual P51)\n4. Fit L2,L3 by default for RS-232/423 operation / remove for RS-422 network\n5. Fit L3 (pos 3-4) by default for RS-232/423 with on-board -5V supply (IC13)\n6. Fit L4 for serial reset or connect push-button to L11 pins (not both, manual P10-11)\n7. L6-9 are open by default for EuroBEEB memory decoding (configuration 0)\n8. If coin cell used for B1 replace R18 with 1N4148\n"
+	(text "Notes:\n1. Fit C10-13 to slew-rate limit serial outputs (not normally needed)\n2. Fit R9,R14 for RS-422 terminating resistors (not needed for RS-232/423)\n3. R31, BUSY+(RTS) pull-up resistor added to avoid BBC modification (see manual P51)\n4. Fit L2,L3 by default for RS-232/423 operation / remove for RS-422 network\n5. Fit L5 (pos 3-4) by default for RS-232/423 with on-board -5V supply (IC13)\n6. Fit L4 for serial reset or connect push-button to L10 pins (not both, manual P10-11)\n7. L6-9 are open by default for EuroBEEB memory decoding (configuration 0)\n8. If coin cell used for B1 replace R18 with 1N4148\n"
 		(exclude_from_sim no)
 		(at 242.57 211.074 0)
 		(effects
